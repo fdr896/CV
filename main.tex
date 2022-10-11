@@ -151,7 +151,7 @@
     {\Huge  Fedor Osetrov} \\ \vspace{10pt}
     \href{https://t.me/fdr400}{\raisebox{-0.2\height}\faTelegram\ \underline{tg}} ~
     \href{https://github.com/fdr896}{\raisebox{-0.2\height}\faGithub\ \underline{github}} ~
-    \href{mailto:fiosetrova@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{fiosetrova@gmail.com}} ~ 
+    \href{mailto:fodor.osetrov@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{fodor.osetrov@gmail.com}} ~ 
     \vspace{-8pt}
 \end{center}
 
@@ -159,9 +159,10 @@
 \section{TECHNICAL SKILLS}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{\normalsize{Languages:}}{ \normalsize{C/C++, Python, little experience in Go.}} \\
-     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, Git, Github, CI/CD with Github Actions and docker-compose, GDB.}} \\
-     \textbf{\normalsize{Text processing:}}{\normalsize{ LaTeX.}} \\
+     \textbf{\normalsize{Languages:}}{ \normalsize{C/C++, Python, had experience in Rust, Go and Assembly.}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, Git, Github, CI/CD with Github Actions, Docker, GDB.}} \\
+     \textbf{\normalsize{Databases:}}{\normalsize{ SQL, MapReduce.}} \\
+     \textbf{\normalsize{Text processing:}}{\normalsize{ LaTeX, Markdown.}} \\
     }}
  \end{itemize}
  \vspace{-15pt}
@@ -171,7 +172,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Higher School of Economics}{2020 -- expected 2024}
-      {Bachelor - Applied Math and Informatics - \textbf{GPA} - \textbf{8.44}}{Moscow, Russia}
+      {Bachelor - Applied Math and Informatics - \textbf{GPA} - \textbf{9.19}}{Moscow, Russia}
   \resumeSubHeadingListEnd
   
   \resumeSubHeadingListStart
@@ -180,50 +181,55 @@
       {}{Moscow, Russia}
   \resumeSubHeadingListEnd
 
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Yandex (Group of geodatabase systems development) }{Jul 2022 -- Present} 
+      {\underline{Software Engineer Intern}}{Moscow, Russia}
+      \resumeItemListStart
+        \resumeItem{\normalsize{I work in the team responsible for all backend of Panoramas in Yandex.Maps}}
+        \resumeItem{\normalsize{Made the organizations from Maps database show up on the Panoramas. Implemented them in the library for IOS and Android mobile apps}}
+        \resumeItem{\normalsize{Engaged in improving and DevOps of several backend services. Working with large MapReduce distributed calculation system}}
+  
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
 %------RELEVANT COURSEWORK-------
 \section{COURSEWORK / SKILLS}
     %\resumeSubHeadingListStart
         %\begin{multicols}{4}
             \begin{itemize}
+                \item Currently studying distributed systems and computer networks. Taking Rust course (Yandex Dataschool)
                 \item Data Structures \& Algorithms (1 year course)
                 \item C++ Advanced Course (multithreading, design patterns, smart pointers, meta programming)
-                \item \href{https://github.com/danlark1/hse_missing_cs_education/}{\underline{Software Development Tools Course}} (Bash, Git, GDB, CI/CD with Github Actions)
+                \item \href{https://github.com/danlark1/hse_missing_cs_education/}{\underline{Software Development Tools Course}} (Bash, Git, GDB, CI with Github Actions)
+                \item Computer architecture and operating systems Course (Assembly, C, sockets, multiplexing, POSIX)
             \end{itemize}
         %\end{multicols}
         \vspace*{2.0\multicolsep}
     %\resumeSubHeadingListEnd
 
 
-
 %-----------PROJECTS-----------
 \section{PROJECTS}
     \vspace{-5pt}
     \resumeSubHeadingListStart
-       \resumeProjectHeading
-          {\href{https://github.com/fdr896/EvalBot}{\textbf{\large{\underline{EvalBot}}} \href{https://github.com/fdr896/EvalBot}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, Docker, Github Actions}}}{}
-          \resumeItemListStart
-            \resumeItem{\normalsize{Telegram bot which interprets your messages as Python code. Primarily, used as calculator.}}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-          
-      \resumeProjectHeading
-          {\href{https://github.com/fdr896/code_storage}{\textbf{\large{\underline{Code storage}}} \href{https://gitub.com/fdr896/code_storage}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Go, JavaScript, Svelte, Docker}}}{}
-          \resumeItemListStart
-            \resumeItem{\normalsize{Web storage for code snippets.}}
-          \resumeItemListEnd
-          \vspace{-13pt}
-          
-      \resumeProjectHeading
-          {\href{https://github.com/fdr896/GrobnerBasis/tree/dev}{\textbf{\large{\underline{GrobnerBasis}}} \href{https://github.com/fdr896/GrobnerBasis/tree/dev}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{C++, Boost, Google tests library}}}{}
-          \resumeItemListStart
-            \resumeItem{\normalsize{ University software project which consisted of implementing classes for working with Gröbner bases. }}
-          \resumeItemListEnd
-          \vspace{-13pt}
       
       \resumeProjectHeading
           {\href{https://github.com/fdr896/scheme}{\textbf{\large{\underline{Scheme}}} \href{https://github.com/fdr896/scheme}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{C++}}}{}
           \resumeItemListStart
-            \resumeItem{\normalsize{Implementation of scheme language interpreter with support for basic arithmetic operations, if-else statements and lambda functions.}}
+            \resumeItem{\normalsize{Scheme language interpreter with support for basic arithmetic operations, if-else statements and lambda functions.}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/egor-bystepdev/saver-cryptoexchange}{\textbf{\large{\underline{Saver-cryptoexchange}}} \href{https://github.com/egor-bystepdev/saver-cryptoexchange}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, Websocket, CI, MySQL}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ University team project, implementing a system that stores and reproduces trading data from crypto-exchanges. }}
           \resumeItemListEnd
           \vspace{-13pt}
           
@@ -232,6 +238,21 @@
           \resumeItemListStart
             \resumeItem{\normalsize{Smart pointers, thread concepts, lock-free data structures, design patterns, etc.}}
           \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/fdr896/GrobnerBasis/tree/dev}{\textbf{\large{\underline{GrobnerBasis}}} \href{https://github.com/fdr896/GrobnerBasis/tree/dev}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{C++, Boost, Google tests library}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ University software project which consisted of implementing classes for working with Gröbner basis. }}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/fdr896/code_storage}{\textbf{\large{\underline{Code storage}}} \href{https://gitub.com/fdr896/code_storage}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Go, JavaScript, Svelte, Docker}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Web application implementing storage for code snippets.}}
+          \resumeItemListEnd
+          
           
     \resumeSubHeadingListEnd
 \vspace{-12pt}
@@ -239,27 +260,12 @@
 %
 
 
-%-----------EXPERIENCE-----------
-%\section{INTERNSHIP}
- % \resumeSubHeadingListStart
-
-  %  \resumeSubheading
-  %    {Company Name \href{certificate Link}{\raisebox{-0.1\height}\faExternalLink }}{MM YYYY -- MM YYYY} 
-   %   {\underline{Role Name}}{city, country}
-   %   \resumeItemListStart
-    %    \resumeItem{\normalsize{About the role \textbf{and responsibilities carried out.}}}
-  
-   %   \resumeItemListEnd  
- % \resumeSubHeadingListEnd
-%\vspace{-12pt}
-
-
 %-----------INVOLVEMENT---------------
 \section{ACADEMIC ACHIEVEMENTS}
     \begin{itemize}
-        \item \normalsize{Winner of Lomonosov MSU olympiad in informatics.}
-        \item \normalsize{Prize-winner of Technocup, Individual Olympiad, Open ITMO olympiad, Regional school olympiad and All-Russian team olympiad in informatics.}
-        \item \normalsize{GPA 8.78 and 8.7\% percentile after first year in university.}
+        \item \normalsize{Winner of Lomonosov MSU olympiad in informatics, Prize-winner of Technocup, Individual Olympiad, Open ITMO olympiad, Regional school olympiad and All-Russian team olympiad in informatics.}
+        \item \normalsize{GPA 9.19 and 4.96\% percentile after second year in university.}
+        \item \normalsize{Teaching assistant in Algebra course for half of an semester.}
     \end{itemize}
  \vspace{-11pt}
 
